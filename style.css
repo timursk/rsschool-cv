@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body {
+    font-family: Verdana, sans-serif;
+}
 .wrapper {
     display: grid;
     grid-template-columns: 35% 65%;
@@ -9,4 +12,9 @@
 }
 header {
     margin-bottom: 100px;
+}
+.Avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

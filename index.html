@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,69 +8,80 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    article, aside, details, figcaption, figure, footer, header, main, mark, nav, section, summary, time
-    <main>
 
-        <div class="wrapper">
-            <div>
+    <div class="wrapper">
+        <div class="leftColumn">
             <aside>
-            <img src="img/avatar.png" alt="Avatar" height="300px" weight="300px">
-            <p>Saint-Petersburg, Russia</p>
-            <h3>Contacts</h3>
-            <ul>
-                <li>Tel: +7(965)-789-84-79</li>
-                <li>Email: timur.dev@mail.ru</li>
-                <li>Discord: Timur Salikhov(@timursk)</li>
-                <li>Vk: vk.com/timurskk</li>
-                <li>Telegram: @timurskk</li>
-            </ul>
-
-            <hr>
-            
-            <h3>Hard skills</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Git</li>
-            </ul>
+                <img class="Avatar" src="img/avatar.png" alt="Avatar" height="300px" weight="300px">
+                <p>Saint-Petersburg, Russia</p>
+                <section class="contacts">
+                    <h3>Contacts</h3>
+                    <ul>
+                        <li>Tel: +7(965)-789-84-79</li>
+                        <li>Email: timur.dev@mail.ru</li>
+                        <li>Discord: Timur Salikhov(@timursk)</li>
+                        <li>Vk: vk.com/timurskk</li>
+                        <li>Telegram: @timurskk</li>
+                    </ul>
+                </section>
+                <hr>
+                <section class="hardSkills">
+                    <h3>Hard skills</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Git</li>
+                    </ul>
+                </section>
             </aside>
-            </div>
-            <div>
+        </div>
+        <!-- wrap -->
+        <div class="rightColumn">
             <header>
-            <h1>Timur Salikhov</h1>
-            <h2>Junior Front-end developer</h2>
+                <h1>Timur Salikhov</h1>
+                <h2>Junior Front-end developer</h2>
             </header>
-            
-            <h3>Summary</h3>
-            <p>I'm 22 yo developer from Saint-Petersburg. I study JS and want to work in corporate giants.</p>
 
-            <h3>Soft skills</h3>
-            <ul>
-                <li>Fast learner</li>
-                <li>Diligent</li>
-                <li>Communicative</li>
-                <li>Honesty</li>
-                <li>Work efficiently</li>
-            </ul>
-
-            <h3>Education</h3>
-                <p>Incomplete higher education(SPbPU)</p>
-            <h3>Code example</h3>
-            <code><pre>function oddOrEven(array) {
+            <main>
+                <section class="summary">
+                    <h3>Summary</h3>
+                    <p>I'm 22 yo developer from Saint-Petersburg. I study JS and want to work in corporate giants.</p>
+                </section>
+                <section class="softSkills">
+                    <h3>Soft skills</h3>
+                    <ul>
+                        <li>Fast learner</li>
+                        <li>Diligent</li>
+                        <li>Communicative</li>
+                        <li>Honesty</li>
+                        <li>Work efficiently</li>
+                    </ul>
+                </section>
+                <section class="education">
+                    <h3>Education</h3>
+                    <p>Incomplete higher education(SPbPU)</p>
+                </section>
+                <section class="code">
+                    <h3>Code example</h3>
+                    <code><pre>function oddOrEven(array) {
                 let sum = array.reduce((x,y) => x + y, 0);
                 if ( sum % 2 == 0){ return 'even'
                 } else return 'odd';
               }</pre></code>
-            <h3>English level B1</h3>
-            </div>
+                </section>
+                <section class="english">
+                    <h3>English level B1</h3>
+                </section>
+            </main>
         </div>
-    
-    </main>
+    </div>
 
     <footer>
 
     </footer>
 </body>
+
 </html>
