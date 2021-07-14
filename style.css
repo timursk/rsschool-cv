@@ -29,3 +29,14 @@ header {
     background-color: #696969;
     padding: 50px;
 }
+.pngGit {
+    width: 80px;
+}
+.svgRSS {
+    width: 120px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
