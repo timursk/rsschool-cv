@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, sans-serif;
+    margin: 50px;
+    background-color: #ffffff;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+aside {
+    padding: 50px;
+}
+header {
+    margin-bottom: 100px;
+}
+.Avatar {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 280px;
+}
+.leftColumn {
+    background-color: rgb(204, 204, 204);
+}
+.rightColumn {
+    background-color: #696969;
+    padding: 50px;
+}
+.pngGit {
+    width: 80px;
+}
+.svgRSS {
+    width: 120px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
