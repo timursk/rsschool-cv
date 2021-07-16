@@ -1,42 +1,52 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: Verdana, sans-serif;
     margin: 50px;
     background-color: #ffffff;
 }
+
 .wrapper {
     display: grid;
     grid-template-columns: 35% 65%;
     margin: auto;
 }
+
 aside {
     padding: 50px;
 }
+
 header {
     margin-bottom: 100px;
 }
-.Avatar {
+
+.avatar {
     display: block;
     margin: 20px auto;
     border-radius: 50%;
     width: 280px;
     height: 280px;
 }
-.leftColumn {
+
+.left-column {
     background-color: rgb(204, 204, 204);
 }
-.rightColumn {
+
+.right-column {
     background-color: #696969;
     padding: 50px;
 }
-.pngGit {
+
+.png-git {
     width: 80px;
 }
-.svgRSS {
+
+.svg-rss {
     width: 120px;
 }
+
 footer {
     display: flex;
     flex-direction: row;
