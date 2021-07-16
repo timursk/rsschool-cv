@@ -9,6 +9,7 @@ body {
 .wrapper {
     display: grid;
     grid-template-columns: 35% 65%;
+    margin: auto;
 }
 aside {
     padding: 50px;
@@ -21,6 +22,7 @@ header {
     margin: 20px auto;
     border-radius: 50%;
     width: 280px;
+    height: 280px;
 }
 .leftColumn {
     background-color: rgb(204, 204, 204);
@@ -39,4 +41,4 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+} 
