@@ -3,15 +3,15 @@
 }
 
 body {
-    font-family: Verdana, sans-serif;
     margin: 50px;
+    font-family: Verdana, sans-serif;
     background-color: #ffffff;
 }
 
 .wrapper {
     display: grid;
-    grid-template-columns: 35% 65%;
     margin: auto;
+    grid-template-columns: 35% 65%;
 }
 
 aside {
@@ -25,9 +25,9 @@ header {
 .avatar {
     display: block;
     margin: 20px auto;
-    border-radius: 50%;
     width: 280px;
     height: 280px;
+    border-radius: 50%;
 }
 
 .left-column {
@@ -35,8 +35,8 @@ header {
 }
 
 .right-column {
-    background-color: #696969;
     padding: 50px;
+    background-color: #696969;
 }
 
 .png-git {
