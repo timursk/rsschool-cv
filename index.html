@@ -7,27 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV RSSchool</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
-
+    <div class="navigation">
+        <ul>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#summary">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#video">Video</a></li>
+        </ul>
+        <div class="burger"><span></span></div>
+        
+    </div>
     <div class="wrapper">
         <div class="left-column">
             <aside>
-                <img class="avatar" src="img/531848712.jpeg" alt="Avatar">
+                <img class="avatar" src="img/avatar.jpeg" alt="Avatar">
                 <p>Saint-Petersburg, Russia</p>
-                <section class="contacts">
+                <section class="contacts" id="contacts">
                     <h3>Contacts</h3>
                     <ul>
-                        <li>Tel: +7(965)-789-84-79</li>
+                        <li>Tel: <a href="tel:+79657898479">+7(965)-789-84-79</a></li>
                         <li>Email: timur.dev@mail.ru</li>
                         <li>Discord: Timur Salikhov(@timursk)</li>
-                        <li>Vk: vk.com/timursk</li>
+                        <li>Vk: <a href="https://vk.com/timursk">vk.com/timursk</a></li>
                         <li>Telegram: @timurskk</li>
                     </ul>
                 </section>
                 <hr>
-                <section class="hard-skills">
+                <section class="hard-skills" id="skills">
                     <h3>Hard skills</h3>
                     <ul>
                         <li>HTML</li>
@@ -46,7 +58,7 @@
             </header>
 
             <main>
-                <section class="summary">
+                <section class="summary" id="summary">
                     <h3>Summary</h3>
                     <p>I'm 22 yo developer from Saint-Petersburg. I study JS and want to work in corporate giants.</p>
                 </section>
@@ -66,14 +78,21 @@
                 </section>
                 <section class="code">
                     <h3>Code example</h3>
-                    <code>function oddOrEven(array) {
-                let sum = array.reduce((x,y) => x + y, 0);
-                if ( sum % 2 == 0){ return 'even'
-                } else return 'odd';
-              }</code>
+                    
+                    <pre>
+                        <code>function oddOrEven(array) {
+                            let sum = array.reduce((x,y) => x + y, 0);
+                            if ( sum % 2 == 0){ return 'even'
+                            } else return 'odd';
+                          }</code>
+                    </pre>
                 </section>
                 <section class="english">
                     <h3>English level B1</h3>
+                </section>
+                <section class="video" id="video">
+                    <h3>Video</h3>
+                    <video src="./img/videocv.mp4" controls="controls"></video>
                 </section>
             </main>
             <hr>
@@ -85,6 +104,16 @@
         </div>
     </div>
 
+
+    <script>
+        let burger = document.querySelector('.burger');
+        let menu = document.querySelector('.navigation ul')
+
+        burger.addEventListener('click', open);
+        function open() {
+            menu.classList.toggle('active');
+        };
+        </script>
 </body>
 
 </html>
