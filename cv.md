@@ -8,7 +8,7 @@
 * Telegram: @timurskk
 
 ## Summary
-Hi! I am 22 years old from Saint-Petersburg, incomplete higher education(SPbPU), studying frontend. I want to become a professional and do not stop there.
+Hi! I am 23 years old from Saint-Petersburg, incomplete higher education(SPbPU), studying frontend. I want to become a professional and do not stop there.
 
 ## My skills
 
@@ -16,8 +16,10 @@ Hi! I am 22 years old from Saint-Petersburg, incomplete higher education(SPbPU),
 * HTML
 * CSS
 * JavaScript
-* Git 
-* B1 english level
+* TypeScript
+* React
+* Git
+* B2 english level
 * ... *work in progress* ... 
 
 ### Soft skills
@@ -29,6 +31,7 @@ Hi! I am 22 years old from Saint-Petersburg, incomplete higher education(SPbPU),
 
 ## Education
 1. [Codewars](https://codewars.com)
-1. [Learn JS](https://learn.javascript.ru/)
-1. Git
-1. [HTML, CSS](https://ru.code-basics.com/)
+2. [Learn JS](https://learn.javascript.ru/)
+3. Git
+4. [HTML, CSS](https://ru.code-basics.com/)
+5. [RSSchool (2021-2022)](https://rs.school/)
